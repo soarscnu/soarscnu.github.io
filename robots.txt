@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://soarscnu.github.io/sitemap.xml 
