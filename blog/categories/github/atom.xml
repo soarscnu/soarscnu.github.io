@@ -4,7 +4,7 @@
   <title><![CDATA[分类：github | 互联网角落]]></title>
   <link href="http://soarscnu.github.io/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://soarscnu.github.io/"/>
-  <updated>2014-11-19T12:23:02+08:00</updated>
+  <updated>2014-11-19T18:35:25+08:00</updated>
   <id>http://soarscnu.github.io/</id>
   <author>
     <name><![CDATA[Soar Chen]]></name>
@@ -18,10 +18,13 @@
     <link href="http://soarscnu.github.io/blog/20141105/ji-yu-octopressda-jian-githubbo-ke/"/>
     <updated>2014-11-05T11:01:23+08:00</updated>
     <id>http://soarscnu.github.io/blog/20141105/ji-yu-octopressda-jian-githubbo-ke</id>
-    <content type="html"><![CDATA[<p>发现网上很多牛人的博客都架设在<a href="http://github.com">github</a>上，而我也一直在寻求一个属于自己的、可定制的、安静的环境来写博客。于是决定也来尝试在github下的博客搭建。通过查找资料并对比了一下，我决定用octopress来搭建。
-##搭建过程
-###0. 电脑环境
-我用的电脑是Mac Mini，系统为OS X Yosemite.以下没有特别说明下，都是在此电脑配置环境下操作。虽然下面很多操作跟系统无关或者在Windows系统下操作大同小异，但不能够保证不同系统下操作完全一样，谨此提醒。</p>
+    <content type="html"><![CDATA[<p>发现网上很多牛人的博客都架设在<a href="http://github.com">github</a>上，而我也一直在寻求一个属于自己的、可定制的、安静的环境来写博客。于是决定也来尝试在github下的博客搭建。通过查找资料并对比了一下，我决定用octopress来搭建。</p>
+
+<h2 id="section">搭建过程</h2>
+
+<h3 id="section-1">0. 电脑环境</h3>
+
+<p>我用的电脑是Mac Mini，系统为OS X Yosemite.以下没有特别说明下，都是在此电脑配置环境下操作。虽然下面很多操作跟系统无关或者在Windows系统下操作大同小异，但不能够保证不同系统下操作完全一样，谨此提醒。</p>
 
 <h3 id="gitruby">1. 安装Git及Ruby</h3>
 
@@ -66,7 +69,7 @@ rvm rubygems latest
 
 <p>我参考了很多网上的关于搭建Octopress教程，它们都是把这步放到最后。但是我认为，先在本地对Octopress作一些简单而必要的设置有利于对Octopress操作的理解，而且也符合我们做事情的一般步骤。比如我们做作业，拿到一本新作业本后是不是要在作业本上写上姓名、科目和座号等，以表示这本作业的归属权？！这步就相当于我们在作业本上写上自己的名字，宣布主权。下面我们开始吧。</p>
 
-<h4 id="section">3.1 安装新主题</h4>
+<h4 id="section-2">3.1 安装新主题</h4>
 
 <p>只要接触过QQ空间或者wordpress的人都知道，可以通过换主题来让博客用上自己喜欢的style。Octopress也可以这样，比如 <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">这里</a>就有一些第三方主题。可以通过执行一些简单的命令来安装新主题，如下：</p>
 
@@ -78,13 +81,13 @@ rvm rubygems latest
 
 <p>以上的命令是不是看着很熟，没错，它跟我们安装Octopress时的命令大同小异。好了，没忘记怎么预览吧？好好预览下，我们马上进入个性化设置、签名步骤啦。</p>
 
-<h4 id="section-1">3.2 基本配置</h4>
+<h4 id="section-3">3.2 基本配置</h4>
 
 <p>这里只对我个人也就是本博客的设置（其实基本上包括了各方面的日常设置）作说明。</p>
 
 <ul>
   <li>
-    <h5 id="section-2">域名，网站标题，作者及链接形式</h5>
+    <h5 id="section-4">域名，网站标题，作者及链接形式</h5>
   </li>
 </ul>
 
@@ -200,7 +203,7 @@ f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\
 
 <ul>
   <li>
-    <h5 id="section-3">页面设置</h5>
+    <h5 id="section-5">页面设置</h5>
   </li>
 </ul>
 
@@ -213,7 +216,7 @@ f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\
 
 <ul>
   <li>
-    <h5 id="section-4">发布文章</h5>
+    <h5 id="section-6">发布文章</h5>
   </li>
 </ul>
 
@@ -230,7 +233,7 @@ f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\
 
 <ul>
   <li>
-    <h5 id="section-5">404页面及导航栏、网站底部</h5>
+    <h5 id="section-7">404页面及导航栏、网站底部</h5>
   </li>
 </ul>
 
@@ -259,7 +262,7 @@ f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\
 
 <ul>
   <li>
-    <h5 id="section-6">评论功能</h5>
+    <h5 id="section-8">评论功能</h5>
   </li>
 </ul>
 
@@ -312,12 +315,12 @@ f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\
 
 <ul>
   <li>
-    <h4 id="section-7">绑定域名</h4>
+    <h4 id="section-9">绑定域名</h4>
 
     <p>这个这里就不介绍啦，Github官方有介绍的，可以参考下。</p>
   </li>
   <li>
-    <h4 id="section-8">发布文章</h4>
+    <h4 id="section-10">发布文章</h4>
 
     <p>采用以下命令新建文章：</p>
 
@@ -332,13 +335,13 @@ rake new_post["标题"]
   </li>
 </ul>
 
-<h3 id="section-9">6. 最后说几句</h3>
+<h3 id="section-11">6. 最后说几句</h3>
 
 <p>这是博客的第一篇文章，不管怎么样，总算是完成了。写得虽然断断续续，但是写作的过程中，我对如何应用Octopress搭建博客有了更深一层的理解，虽然谈不上什么，但是我希望这篇文章除了作为我个人学习用Octopress来搭建博客的笔记外，也能够对后来者能有一点点的帮助。</p>
 
 <p>写作这篇文章的时候，我拜读了互联网上很多的关于如何搭建的博文，获益良多，在此感谢他们。我介绍的搭建过程可能会跟很多文章介绍的步骤有些出入，但是个人认为本文的搭建过程更符合我们的习惯，至少是符合我的。</p>
 
-<h3 id="section-10">7. 相关链接</h3>
+<h3 id="section-12">7. 相关链接</h3>
 
 <ol>
   <li><a href="http://shengmingzhiqing.com/blog/octopress-tutorials-toc.html/">http://shengmingzhiqing.com/blog/octopress-tutorials-toc.html/</a></li>
