@@ -6,8 +6,11 @@ comments: true
 categories: github Octopress
 ---
 发现网上很多牛人的博客都架设在[github](http://github.com)上，而我也一直在寻求一个属于自己的、可定制的、安静的环境来写博客。于是决定也来尝试在github下的博客搭建。通过查找资料并对比了一下，我决定用octopress来搭建。
+
 ##搭建过程
+
 ###0. 电脑环境
+
 我用的电脑是Mac Mini，系统为OS X Yosemite.以下没有特别说明下，都是在此电脑配置环境下操作。虽然下面很多操作跟系统无关或者在Windows系统下操作大同小异，但不能够保证不同系统下操作完全一样，谨此提醒。
 
 ###1. 安装Git及Ruby
