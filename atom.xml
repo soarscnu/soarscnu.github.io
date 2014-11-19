@@ -4,7 +4,7 @@
   <title><![CDATA[互联网角落]]></title>
   <link href="http://soarscnu.github.io/atom.xml" rel="self"/>
   <link href="http://soarscnu.github.io/"/>
-  <updated>2014-11-18T23:26:03+08:00</updated>
+  <updated>2014-11-19T12:23:02+08:00</updated>
   <id>http://soarscnu.github.io/</id>
   <author>
     <name><![CDATA[Soar Chen]]></name>
@@ -18,7 +18,7 @@
     <link href="http://soarscnu.github.io/blog/20141105/ji-yu-octopressda-jian-githubbo-ke/"/>
     <updated>2014-11-05T11:01:23+08:00</updated>
     <id>http://soarscnu.github.io/blog/20141105/ji-yu-octopressda-jian-githubbo-ke</id>
-    <content type="html"><![CDATA[<p>发现网上很多牛人的博客都架设在<a href="github.com">github</a>上，而我也一直在寻求一个属于自己的、可定制的、安静的环境来写博客。于是决定也来尝试在github下的博客搭建。通过查找资料并对比了一下，我决定用octopress来搭建。
+    <content type="html"><![CDATA[<p>发现网上很多牛人的博客都架设在<a href="http://github.com">github</a>上，而我也一直在寻求一个属于自己的、可定制的、安静的环境来写博客。于是决定也来尝试在github下的博客搭建。通过查找资料并对比了一下，我决定用octopress来搭建。
 ##搭建过程
 ###0. 电脑环境
 我用的电脑是Mac Mini，系统为OS X Yosemite.以下没有特别说明下，都是在此电脑配置环境下操作。虽然下面很多操作跟系统无关或者在Windows系统下操作大同小异，但不能够保证不同系统下操作完全一样，谨此提醒。</p>
@@ -26,7 +26,7 @@
 <h3 id="gitruby">1. 安装Git及Ruby</h3>
 
 <h4 id="git">1.1 安装Git</h4>
-<p>这个比较简单，一般不会出现什么差错，只需要<a href="git-scm.com">点击这里</a>到Git官方网站按照提示下载就可以了。当然，官方网站是英语。但没关系，我想英语再差的人也能正确下载下来的。好吧，我就是一个明证。英语差如我都能，还有什么犹豫的，赶紧滴。放张图片在这里。 </p>
+<p>这个比较简单，一般不会出现什么差错，只需要<a href="http://git-scm.com">点击这里</a>到Git官方网站按照提示下载就可以了。当然，官方网站是英语。但没关系，我想英语再差的人也能正确下载下来的。好吧，我就是一个明证。英语差如我都能，还有什么犹豫的，赶紧滴。放张图片在这里。 </p>
 
 <p><img src="http://ww4.sinaimg.cn/large/a15b4afegw1emczvwz3tnj209k0a6aam" alt="Git" /></p>
 
